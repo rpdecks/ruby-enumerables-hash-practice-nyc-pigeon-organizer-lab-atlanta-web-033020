@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         end
       end
     if !new_pigeon_hash[name].include?
-      new_pigeon_hash[name][attribute_value_hash]
+      new_pigeon_hash[name][attribute_key] = {}
     end
   end
   new_pigeon_hash
