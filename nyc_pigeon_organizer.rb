@@ -20,6 +20,7 @@ def nyc_pigeon_organizer(data)
         end
       new_pigeon_hash[name][:key] = {}
       end
+    
     end
   end
   new_pigeon_hash
