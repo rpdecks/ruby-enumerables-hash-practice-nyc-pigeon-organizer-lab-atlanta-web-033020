@@ -16,11 +16,11 @@ def nyc_pigeon_organizer(data)
     attribute_value_hash.each do | key, names |
       names.each do |name|
         if !new_pigeon_hash.include? name
-          !new_pigeon_hash[name].include? attribute_key
+          new_pigeon_hash[name] = {}
+        if !new_pigeon_hash[name].include? attribute_key
           new_pigeon_hash[name][attribute_key] = []
-        else new_pigeon_hash[name] = {}
+        else 
         end
-      if 
         end
       end
     end
