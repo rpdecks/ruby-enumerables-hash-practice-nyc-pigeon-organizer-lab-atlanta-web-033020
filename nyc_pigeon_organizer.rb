@@ -21,7 +21,6 @@ def nyc_pigeon_organizer(data)
           new_pigeon_hash[name][attribute_key] = []
         else 
         end
-        end
       end
     end
   end
