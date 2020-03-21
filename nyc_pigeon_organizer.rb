@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
     attribute_value_hash.each do | key, names |
       names.each do |name|
         if new_pigeon_hash.include? 
-          
         else new_pigeon_hash[name] = {}
+        end
       end
     end
   end
