@@ -18,9 +18,9 @@ def nyc_pigeon_organizer(data)
         if new_pigeon_hash.include? !name
         else new_pigeon_hash[name] = {}
         end
-      new_pigeon_hash[name][:key] = {}
       end
-    
+    if !new_pigeon_hash[name].include?
+      new_pigeon_hash[name][attribute_value_hash]
     end
   end
   new_pigeon_hash
