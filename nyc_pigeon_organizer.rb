@@ -17,6 +17,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !new_pigeon_hash.include? name
           new_pigeon_hash[name] = {}
+        end
         if !new_pigeon_hash[name].include? attribute_key
           new_pigeon_hash[name][attribute_key] = []
         else 
